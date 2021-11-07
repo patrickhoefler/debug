@@ -2,7 +2,7 @@
 
 Simple container image for debugging.
 
-The [debug](https://github.com/patrickhoefler/debug/pkgs/container/debug) container image is based on [Ubuntu](https://hub.docker.com/_/ubuntu) and contains:
+The [debug container image](https://ghcr.io/patrickhoefler/debug) is based on [Ubuntu](https://hub.docker.com/_/ubuntu) and contains:
 
 - [dig](http://manpages.ubuntu.com/manpages/focal/man1/dig.1.html)
 - [curl](http://manpages.ubuntu.com/manpages/focal/man1/curl.1.html)
