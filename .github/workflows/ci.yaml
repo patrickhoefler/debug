@@ -21,6 +21,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           tags: debug
+          load: true # make the image available locally
 
       - name: Test curl
         run: docker run --rm debug curl google.com
