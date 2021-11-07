@@ -2,7 +2,7 @@
 
 Simple container image for debugging.
 
-It is based on Ubuntu and contains:
+It is based on [Ubuntu](https://hub.docker.com/_/ubuntu) and contains:
 
 - [dig](http://manpages.ubuntu.com/manpages/focal/man1/dig.1.html)
 - [curl](http://manpages.ubuntu.com/manpages/focal/man1/curl.1.html)
@@ -26,3 +26,7 @@ nerdctl run --rm ghcr.io/patrickhoefler/debug dig +short google.com
 ```shell
 kubectl run --rm --restart=Never -iq --image ghcr.io/patrickhoefler/debug debug dig +short google.com
 ```
+
+## License
+
+[MIT](LICENSE)
