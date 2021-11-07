@@ -38,7 +38,7 @@ If you want to start an interactive debugging session:
 #### Docker (interactive)
 
 ```shell
-docker run --rm -it  ghcr.io/patrickhoefler/debug
+docker run --rm -it ghcr.io/patrickhoefler/debug
 ```
 
 #### nerdctl (interactive)
