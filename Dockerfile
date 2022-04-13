@@ -1,4 +1,4 @@
-FROM ubuntu:focal-20220105@sha256:b5a61709a9a44284d88fb12e5c48db0409cfad5b69d4ff8224077c57302df9cf
+FROM ubuntu:focal-20220404@sha256:9101220a875cee98b016668342c489ff0674f247f6ca20dfc91b91c0f28581ae
 
 LABEL org.opencontainers.image.source="https://github.com/patrickhoefler/debug"
 
