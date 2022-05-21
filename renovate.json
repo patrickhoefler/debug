@@ -1,9 +1,10 @@
 {
   "extends": [
     "config:base",
-    ":disableDependencyDashboard"
+    "helpers:pinGitHubActionDigests"
   ],
   "automerge": true,
+  "dependencyDashboard": false,
   "major": {
     "automerge": false
   },
