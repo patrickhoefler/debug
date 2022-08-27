@@ -30,7 +30,7 @@ jobs:
 
       - name: Get branch name
         id: branch-name
-        uses: tj-actions/branch-names@dc2e78ac9284175fdc0f2d505d8b49ef99632ea8 # tag=v5
+        uses: tj-actions/branch-names@a787f0ff71ed44cb74a19849ba7ebe78434e11db # tag=v6
 
       - name: Login to GitHub Container Registry
         uses: docker/login-action@49ed152c8eca782a232dede0303416e8f356c37b # tag=v2
