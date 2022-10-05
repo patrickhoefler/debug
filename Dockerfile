@@ -1,4 +1,4 @@
-FROM ubuntu:jammy-20220815@sha256:20fa2d7bb4de7723f542be5923b06c4d704370f0390e4ae9e1c833c8785644c1
+FROM ubuntu:jammy-20221003@sha256:ffee37ea93d723c20ad11709173e2730d7ff698d38f9433b2cb294cbc6f446e9
 
 LABEL org.opencontainers.image.source="https://github.com/patrickhoefler/debug"
 
